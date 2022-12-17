@@ -1,5 +1,5 @@
 let add = (num_1, num_2) => {
-    return num_1 + num_2;
+    return parseFloat(num_1) + parseFloat(num_2);
 }
 let substr = (num_1, num_2) => {
     return num_1 - num_2;
